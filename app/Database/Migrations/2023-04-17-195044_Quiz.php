@@ -35,6 +35,10 @@ class Quiz extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => 255,
             ],
+            'pilihan5' => [
+                'type' => 'VARCHAR',
+                'constraint' => 255,
+            ],
             'jawaban' => [
                 'type' => 'VARCHAR',
                 'constraint' => 255,
